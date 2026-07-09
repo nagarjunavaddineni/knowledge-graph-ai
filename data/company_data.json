@@ -1,0 +1,74 @@
+{
+  "people": [
+    {
+      "name": "John",
+      "role": "Project Manager"
+    },
+    {
+      "name": "Sarah",
+      "role": "Project Manager"
+    },
+    {
+      "name": "Mike",
+      "role": "AI Engineer"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Alpha",
+      "technology": "Generative AI"
+    },
+    {
+      "name": "Project Beta",
+      "technology": "Data Engineering"
+    },
+    {
+      "name": "Project Gamma",
+      "technology": "Machine Learning"
+    }
+  ],
+  "customers": [
+    {
+      "name": "Customer X",
+      "industry": "Banking"
+    },
+    {
+      "name": "Customer Y",
+      "industry": "Retail"
+    }
+  ],
+  "relationships": [
+    {
+      "person": "John",
+      "relationship": "MANAGES",
+      "project": "Project Alpha"
+    },
+    {
+      "person": "John",
+      "relationship": "MANAGES",
+      "project": "Project Beta"
+    },
+    {
+      "person": "Sarah",
+      "relationship": "MANAGES",
+      "project": "Project Gamma"
+    }
+  ],
+  "project_customers": [
+    {
+      "project": "Project Alpha",
+      "relationship": "SERVES",
+      "customer": "Customer X"
+    },
+    {
+      "project": "Project Beta",
+      "relationship": "SERVES",
+      "customer": "Customer Y"
+    },
+    {
+      "project": "Project Gamma",
+      "relationship": "SERVES",
+      "customer": "Customer X"
+    }
+  ]
+}
