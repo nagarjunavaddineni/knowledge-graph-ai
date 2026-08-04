@@ -3,3 +3,6 @@ openai
 python-dotenv
 streamlit
 pandas
+pydantic>=2.7,<3.0
+pypdf>=6.0,<7.0
+

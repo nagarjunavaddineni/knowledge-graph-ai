@@ -1,0 +1,1 @@
+﻿Alex Morgan manages the Enterprise GraphRAG Assistant. Priya Sharma works on the project. The project serves Acme Corporation and uses Neo4j and Python.
