@@ -1,5 +1,6 @@
 neo4j
-openai
+openai>=1.51.1,<2.0.0
+neo4j-graphrag[openai]>=1.18,<2.0
 python-dotenv
 streamlit
 pandas
