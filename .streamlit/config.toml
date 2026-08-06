@@ -1,0 +1,27 @@
+[server]
+runOnSave = true
+maxUploadSize = 25
+fileWatcherType = "auto"
+enableCORS = true
+enableXsrfProtection = true
+
+[client]
+showErrorDetails = "type"
+toolbarMode = "minimal"
+showSidebarNavigation = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#8B5CF6"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#161B22"
+textColor = "#F8FAFC"
+font = "sans-serif"
+showSidebarBorder = true
+
+[theme.sidebar]
+backgroundColor = "#111827"
+secondaryBackgroundColor = "#1F2937"
