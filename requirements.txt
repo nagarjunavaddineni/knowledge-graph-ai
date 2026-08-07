@@ -9,4 +9,5 @@ pypdf>=6.0,<7.0
 streamlit>=1.61,<2.0
 pyvis>=0.3.2,<0.4
 networkx>=3.2,<4.0
+fastapi
 
