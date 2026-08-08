@@ -333,9 +333,7 @@ Rules:
                 f"[{source_id}]",
                 (
                     "Document: "
-                    f"{chunk.document_title "
-                    or chunk.document_id "
-                    or 'Unknown document'}"
+        f"{chunk.document_title or chunk.document_id or 'Unknown document'}"
                 ),
                 f"Chunk ID: {chunk.chunk_id}",
                 f"Chunk index: {chunk.chunk_index}",
